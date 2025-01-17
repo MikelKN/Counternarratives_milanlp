@@ -9,8 +9,8 @@ import os
 
 tqdm.pandas()
 
-# openai.api_key = "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"
-openai.api_key = "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"
+# openai.api_key = "flor-openai-api"
+openai.api_key = "mikel-openai-api"
 
 
 def get_completion(model_name_or_path, event, prompt_version, persona='None'):
