@@ -9,8 +9,8 @@ import os
 
 tqdm.pandas()
 
-# openai.api_key = "flor-openai-api"
-openai.api_key = "mikel-openai-api"
+# openai.api_key = flor-openai-api
+openai.api_key = mikel-openai-api
 
 
 def get_completion(model_name_or_path, event, prompt_version, persona='None'):
